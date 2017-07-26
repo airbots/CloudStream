@@ -1,4 +1,4 @@
-# Kafka Connect HDFS Connector
+# Kafka Connect Swift Connector
 
 kafka-connect-swift is a [Kafka Connector](http://kafka.apache.org/documentation.html#connect)
 for copying data between Kafka and Openstack Swift Object Store.
