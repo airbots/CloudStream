@@ -1,21 +1,25 @@
-# CloudStream
-This is a sink for Kafka connecting to Openstack Swift Object Store. It is a kafka-connect based connector to copy data from Kafka to Openstack Swift Object Stores. It focusses on reliable and scalable data copying. It can write the data out in different formats (like parquet, so that it can readily be used by analytical tools) and also in different partitioning requirements.
-## Features
-CloudStream inherits from kafka-connect-hdfs. It has most of features that kafka-connect-hdfs has. It also borrowed some feature from Streamx which is a Qubole connector to work with S3, Google Cloud, and Azure.
+# Kafka Connect HDFS Connector
 
-## Tutorial 
-CloudStream is based on kafka-connect-hdfs- 3.2. It means earlier version of confluent or kafka may have library issues when using CloudStream. 
-### build CloudStream
+kafka-connect-hdfs is a [Kafka Connector](http://kafka.apache.org/documentation.html#connect)
+for copying data between Kafka and Hadoop HDFS.
 
+Documentation for this connector can be found [here](http://docs.confluent.io/current/connect/connect-hdfs/docs/index.html).
 
-### setup Classpath
+# Development
 
-### config CloudStream
+To build a development version you'll need a recent version of Kafka. You can build
+kafka-connect-hdfs with Maven using the standard lifecycle phases.
 
-### Run CloudStream in standalone mode
+# FAQ
 
-### Run CloudStream in distributed mode
+Refer frequently asked questions on Kafka Connect HDFS here -
+https://github.com/confluentinc/kafka-connect-hdfs/wiki/FAQ
 
-### Docker
+# Contribute
 
-### Roadmap
+- Source Code: https://github.com/confluentinc/kafka-connect-hdfs
+- Issue Tracker: https://github.com/confluentinc/kafka-connect-hdfs/issues
+
+# License
+
+The project is licensed under the Apache 2 license.
